@@ -1,0 +1,1 @@
+Place profile.jpg here (portrait). Also add profile.jpeg and 'yt 1.jpeg' for the gallery.
