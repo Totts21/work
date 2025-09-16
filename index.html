@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>In Loving Memory of Jane Doe</title>
+  <meta name="description" content="A memorial site honoring Jane Doe">
+  <meta property="og:title" content="In Loving Memory of Jane Doe">
+  <meta property="og:description" content="Honoring the life and memory of Jane Doe">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header container">
+    <h1 id="site-title"></h1>
+    <p id="lifespan" class="muted"></p>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <img id="primary-photo" alt="Primary portrait">
+      <blockquote id="favorite-quote" class="quote"></blockquote>
+    </section>
+    <section class="card"><h2>About</h2><div id="biography"></div></section>
+    <section class="card"><h2>Service Details</h2><ul id="service-list" class="list"></ul></section>
+    <section class="card">
+      <h2>Photo Gallery</h2>
+      <div id="gallery" class="gallery" role="list"></div>
+      <dialog id="lightbox"><img id="lightbox-img" alt="Enlarged photo"><form method="dialog"><button aria-label="Close">Close</button></form></dialog>
+    </section>
+    <section class="card"><h2>Donations & Flowers</h2><ul id="donations" class="list"></ul></section>
+    <section class="card"><h2>Guestbook</h2><p id="guestbook-links"></p></section>
+  </main>
+  <footer class="site-footer container"><small>© <span id="year"></span> In Loving Memory of Jane Doe</small></footer>
+  <script id="site-data" type="application/json">{"site_title": "In Loving Memory of Jane Doe", "full_name": "Jane Doe", "lifespan": "September 16 1955 – September 16 2025", "primary_photo": "images/profile.jpg", "favorite_quote": "“It is what it is.”", "biography": "Jane Doe lived a life filled with love, kindness, and purpose. From an early age, she showed strength and determination that carried through every chapter of life. She worked hard, cared deeply, and always gave her best to family, friends, and community.\n\nHer milestones were many, both big and small. Whether it was a proud achievement, a joyful celebration, or the simple daily moments of laughter and care, each reflected her character. She created memories that continue to bring comfort and inspiration.\n\nJane was known for her generosity, patience, and gentle spirit. People were drawn to her warmth and sincerity, and she had a way of making everyone feel valued. Her example reminds us to live with compassion, gratitude, and courage.\n\nThough Jane is no longer with us, her legacy lives on in the love she shared and the lessons she left behind. We honor her memory by carrying forward her values and cherishing the moments we had together.", "service": {"date": "17th ,September,2025", "time": "8 am – 10pm", "venue": "Calvary Baptist Church", "address": "66 South Grove St. East Orange, NJ 07018", "map_link": "#"}, "donations": [{"label": "Make a wish", "url": "#"}, {"label": "GoFundMe", "url": "https://www.gofundme.com/f/essentials-fund?_gl=1*fdrsx3*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwlaTGBhANEiwAoRgXBWbJaVlRJ-adXSoscDgtXx_KZUg8phhW9P5eag6WEBZvLDGY-IZw8xoCZ84QAvD_BwE&gbraid=0AAAAADj5gICudBfBt8qGsM60HcCJUMRMY"}], "contacts": [{"label": "Family Email", "url": "mailto:phelpsmagnum2@gmail.com"}], "gallery": ["images/profile.jpeg", "images/yt 1.jpeg"]}</script>
+  <script src="script.js" defer></script>
+</body>
+</html>
